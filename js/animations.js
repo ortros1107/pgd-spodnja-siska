@@ -1,8 +1,8 @@
-const greetingAnimation = document.querySelector("section.greeting-animation");
+/*const greetingAnimation = document.querySelector("section.greeting-animation");
 const banner = document.querySelector(".banner");
-const blocks = document.getElementsByClassName("blocks");
+const blocks = document.getElementsByClassName("blocks");*/
 // const greetingAnimationTitle = document.querySelector("h2");
-
+/*
 const numberOfBlocks = 400; // numbers of all blocks on the screen
 
 for (let i = 1; i < numberOfBlocks; i++) {
@@ -19,7 +19,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   greetingAnimation.style.display = "none";
-}, 12000);
+}, 12000); */
 
 // setTimeout(() => {
 //   greetingAnimationTitle.classList.add("greeting-animation__title");
