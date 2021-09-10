@@ -1,0 +1,168 @@
+
+
+.greeting-animation {
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background: #000;
+    z-index: 20;
+    transform-style: preserve-3d;
+    perspective: 500px;
+  
+    .greeting-animation__title {
+      z-index: 21;
+      position: absolute;
+      color: rgba(0,0,0,0);
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
+      line-height:100vh;
+      font-size:5vw;
+      font-weight: 500;
+   
+      &:before{
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100vh;
+        color:rgba(128,0,0,1);
+        overflow: hidden;
+        animation: colorText 6s linear alternate 2 none running;
+    }
+    @keyframes colorText {
+       0%, 10% 
+       {
+         width: 0;
+       }
+      
+        70%, 90%, 100%
+        {
+          width: 100%;
+        }
+    }
+  }
+  
+    .banner {
+      position: absolute;
+      top:0; 
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      .blocks {
+        position: relative;
+        display: block;
+        width: 5vw;
+        height: 5vh;
+        animation: assembleFromCubes 2s ease-in-out forwards;
+        animation-delay: 1s;
+      }
+  
+      @keyframes assembleFromCubes {
+        0% {
+          transform: translateZ(2000px);
+          background: url(../media/images/pgdLogo2.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-size:cover;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        100% {
+          transform: translateZ(0px);
+          background:  url(../media/images/pgdLogo2.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-size:cover;
+          border: 1px solid rgba(0,0,0,0.1);
+          box-shadow: 0 5px 15px rgba(0,0,0,0);
+        }
+      }
+    }
+  }
+  
+  .active {
+    .banner {
+      .blocks {
+        animation: shatterIntoCubes 2s ease-in-out forwards;
+        background:  url(../media/images/pgdLogo2.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-size:cover;
+          border: 1px solid rgba(0,0,0,0.1);
+          
+      }
+      @keyframes shatterIntoCubes {
+        0% {
+          transform: translateZ(0px);
+          background: url(../media/images/pgdLogo2.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-size:cover;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        100% {
+          transform: translateZ(2000px);
+          background:  url(../media/images/pgdLogo2.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-size:cover;
+          border: 1px solid rgba(0,0,0,0.1);
+          box-shadow: 0 5px 15px rgba(0,0,0,0);
+        }
+      }
+    }
+  } 
+  
+  .greeting {
+    position: absolute;
+    top: 44%;
+    bottom: 40%;
+    align-self: center;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .showcase {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  
+    .video-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--primary-color) url("../media/images/index/homepageimage.jpg") no-repeat center center/cover;
+      opacity: 0.8;
+      z-index: 7;
+  
+      video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .video-container:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.95);
+    }
+  }

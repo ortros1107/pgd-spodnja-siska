@@ -1,0 +1,72 @@
+
+
+.membership-title {
+    line-height: 1.5em;
+    position: relative;
+    margin: 15vh 0 ;
+    text-align: center;
+    font-size: 5em;
+  }
+  
+  .membership-paragraph {
+    margin-bottom: 10vh;
+  text-align: left;
+  }
+  
+  .membership-swiper__gallery {
+    margin-bottom: 15vh;
+  }
+  
+  .join-form {
+    margin-left: 30vw;
+    width: 40vw;
+    height: 500px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items:center;
+    font-size:1.5em;
+    border: 0.5vh solid #000000;
+    border-radius: 10%;
+    margin-bottom: 20vh;
+  
+  .join-form__label {
+  margin-bottom:5vh;
+  
+  .join-form__input {
+    margin-left: 3vw;
+    font-size:1em;
+    border: 0.3vh solid #000000;
+    border-radius:0.5vw;
+  }
+  }
+  
+  .label-name {
+    margin-left: -5vw;
+    
+    .label-name__input {
+      margin-right:-8vw;
+      font-size:1em;
+    }
+  }
+  
+    .join-form__button {
+      width: 18vw;
+      transform: rotate(12deg);
+      color: #0A9928;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: 0.25rem solid #0A9928;
+      padding: 0.25rem 1rem;
+      text-transform: uppercase;
+      border-radius: 1rem;
+      font-family: 'NeogreyMedium';
+      mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+      margin-top:5vh;
+      transition: all .6s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+    }
+  }

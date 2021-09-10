@@ -1,0 +1,170 @@
+
+
+header {
+    margin-bottom: -1vh;
+  }
+  
+  article {
+    margin-bottom: 0vh;
+  }
+  
+  .about-title {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 5em;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  .about-subtitle {
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+    align-self: center;
+    margin: 3% 0;
+    font-size: 4em;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  .about-subtitle__h3 {
+    line-height: 1.5;
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+    align-self: center;
+    margin: 2% 0;
+    font-size: 2.5em;
+    line-height: 1.3;
+  }
+  
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7,
+  .image8,
+  .image9 {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    // fixed - parallax
+    // scroll - normal
+    background-attachment: fixed;
+    margin: 1vh;
+  }
+  
+  .image1 {
+    background-image: url("../media/images/about/ekipna.jpg");
+    min-height: 100vh;
+  }
+  
+  .image2 {
+    background-image: url("../media/images/about/domInVozila.jpg");
+    min-height: 40vh;
+  }
+  
+  .image3 {
+    background-image: url("../media/images/about/domcelovska.jpg");
+    min-height: 40vh;
+  }
+  
+  .image4 {
+    background-image: url("../media/images/about/povorka.jpg");
+    min-height: 40vh;
+  }
+  
+  .image5 {
+    background-image: url("../media/images/about/obletnica40.png");
+    min-height: 40vh;
+  }
+  
+  .image6 {
+    background-image: url("../media/images/about/praVoziloInPriklopnik.jpg");
+    min-height: 40vh;
+  }
+  
+  .image7 {
+    background-image: url("../media/images/about/porušeniDom.jpg");
+    min-height: 40vh;
+  }
+  
+  .image8 {
+    background-image: url("../media/images/about/puchSolo.jpg");
+    min-height: 40vh;
+  }
+  
+  .image9 {
+    background-image: url("../media/images/about/vhod.jpg");
+    min-height: 40vh;
+  }
+  
+  .section {
+    text-align: center;
+    padding: 0.5vh 0 0;
+  
+    p {
+      padding: 2% 15%;
+      font-size: 1.5em;
+      line-height: 1.5;
+      text-align: left;
+    }
+  
+    .location {
+      position: relative;
+      width: 100vw;
+      padding: 2vh 1vw;
+    }
+  }
+  
+  .light {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: #f4f4f4;
+  }
+  
+  .dark {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #8c8d8f;
+  }
+  
+  .table {
+    border: 0.2vh solid #ffffff;
+    font-size:1em;
+    width: 60vw;
+    margin-top: 5vh;;
+    margin-left: 20vw;
+    margin-bottom: 0vh;
+  
+      .table-caption {
+        border: 0.2vh solid #ffffff;
+        text-transform: uppercase;
+        font-size:1.4em;
+        margin-bottom: -0.1vh;
+        font-weight:500;
+      }
+  
+      .table-body__tr__th {
+        border: 0.2vh solid #ffffff;
+      }
+  
+      .table-body__tr__td {
+        border: 0.2vh solid #ffffff;
+      }
+  }

@@ -1,0 +1,272 @@
+:root {
+    --primary-color: #3a3f4d;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.5em;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background: #fff;
+    color: #000;
+  }
+  
+  h3 {
+    font-size: 2em;
+  }
+  
+  p,
+  li {
+    font-size: 20px;
+  }
+  
+  main {
+    line-height: 1.5em;
+    overflow-x: hidden;
+  }
+  
+  .main-header_nav {
+    color: white;
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100vw;
+    margin-bottom: 15vh;
+    list-style: none;
+    display: flex;
+    z-index: 14;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: medium;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row nowrap;
+    opacity: 0.9;
+  
+    #hamburger-menu {
+      background-color: maroon;
+      border: none;
+      color: white;
+      display: none;
+      margin-top:0.5em;
+      margin-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 0.5em;
+  
+      .fa-bars {
+        font-size: 2em;
+        margin-top: 1vh;
+        margin-left: 2vw;
+        z-index: 20;
+      }
+    }
+  
+    .navbar-links {
+      ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      }
+    }
+  }
+  
+  .main-header_nav__link {
+    color: white;
+    margin-bottom: 0;
+    padding: 1vw;
+    font-size: 1.5vh;
+    display: block;
+    text-align: center;
+  }
+  
+  .main-header_nav__link:hover {
+    background-color: red;
+    color: rgb(188, 236, 14);
+  
+  }
+  
+  .main-header_nav__link .material-icons {
+    display: block;
+  }
+  
+  .main-header_nav__link_item {
+    color: white;
+  }
+  
+  .contact {
+    z-index: 16;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1.4vh;
+    bottom: 0.5vh;
+    right: 7%;
+    list-style: none;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  .contact img {
+    height: 3.4vh;
+  }
+  
+  .vizitka img {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .contact-title {
+    font-weight: bold;
+    flex: 1 1 0.9em;
+    align-self: start;
+  }
+  
+  .contact-telephone {
+    flex: 1 1 0.9em;
+    align-self: auto;
+  }
+  
+  .contact-email {
+    flex: 1 1 0.9em;
+    align-self: auto;
+  }
+  
+  .contact span {
+    position: absolute;
+    opacity: 0;
+    size: 0%;
+  }
+  
+  .contact:hover span {
+    opacity: 100%;
+    size: 100%;
+    top: 0px;
+    right: 0%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  
+  .contact li {
+    text-align: center;
+    top: 1.5vh;
+    font-size: 1em;
+  }
+  
+  #logo {
+    position: absolute;
+    height: 6vh;
+    top: 1vh;
+    right: 1.8vw;
+    border-radius: 10%;
+  }
+  
+  .lorem {
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  .active,
+  .active:hover {
+    background-color: inherit;
+    color: lightgreen;
+  }
+  
+  .Fvizitka img {
+    background-color: maroon;
+    position: relative;
+    box-shadow: rgba($color: #000000, $alpha: 0.4) 10px 10px 15px;
+  }
+  
+  .Fvizitka {
+    justify-content: space-between;
+    background-color: maroon;
+    padding: 10%;
+    display: none;
+  }
+  
+  .footer {
+    // position: fixed;
+    border: 1em, solid rgb(227, 227, 227);
+    bottom: 0vh;
+    width: 100vw;
+    height: 7vh;
+    font-weight: 400;
+    p{
+      font-size: 1.8vh;
+    }
+    
+    color: inherit;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 14;
+    opacity: 0.9;
+  
+    .copyright {
+      position: relative;
+      font-weight: 400;
+      left: 2vw;
+      align-self: center;
+    }
+  
+    .container {
+      position: relative;
+      align-self: center;
+      right: 2vw;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+  
+      .social-networks {
+        position: relative;
+        align-self: center;
+        line-height: 1.5;
+        right: 3vw;
+      }
+  
+      .fa-facebook-square {
+        position: relative;
+        flex: 1 1 2em;
+        font-size: 1.5em;
+        color: rgb(66, 103, 178);
+        background-color: rgb(177, 177, 177);
+        align-self: center;
+        right: 2vw;
+      }
+  
+      .fa-twitter {
+        position: relative;
+        flex: 1 1 2em;
+        font-size: 1.5em;
+        color: rgb(29, 161, 242);
+        align-self: center;
+        right: 1vw;
+      }
+  
+      .fa-instagram {
+        position: relative;
+        flex: 1 1 2em;
+        font-size: 1.5em;
+        border-radius: 25%;
+        color: #cc2366;
+        align-self: center;
+      }
+    }
+  }

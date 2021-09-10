@@ -1,0 +1,28 @@
+.help_us-title {
+    font-size: 4em;
+    margin-bottom:10vh;
+  }
+
+  .help_us-paragraph {
+    margin-bottom: -5vh;
+  }
+
+  .help_us-ol {
+    margin-bottom: 20vh;
+    
+    li {
+      width: 70vw;
+
+      .help_us-ul {
+        
+        li {
+          width: 30vw;
+        }
+
+        .img-qrcode {
+          width: 30vw;
+          margin-left: 35vw;
+        }
+      }
+    }
+  }

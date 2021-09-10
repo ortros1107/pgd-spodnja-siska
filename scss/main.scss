@@ -1,0 +1,27 @@
+@use 'partials/page-styles';
+
+// MEDIA QUERIES
+
+/* Mobile devices */
+
+@use './partials/media-queries/mobile-phone';
+
+/* Tablets */
+
+@use './partials/media-queries/tablet';
+
+/* Laptops */
+
+@use './partials/media-queries/laptop';
+  
+
+/* Desktops */
+
+@use './partials/media-queries/desktop';
+
+/* Large screens */
+
+@use './partials/media-queries/large-screen';
+  
+
+

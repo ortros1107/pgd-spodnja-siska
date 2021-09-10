@@ -1,0 +1,212 @@
+@media (min-width: 801px) and (max-width: 1280px) {
+
+    li {
+        font-size: 1em;
+      }
+    
+     .section p {
+        font-size:1em;
+      }
+    
+      .main-header_nav {
+        height:10vh;
+      
+    .navbar-links{
+      width:77vw;
+      margin-top: 3vh;
+    
+      li {
+        height: 10vh;
+        width: 10vw;
+      margin-top:-1vh;
+      margin-left: 1vw;
+      
+      a,.active {
+        font-size: 0.8em;
+        width: 12vw;
+    
+      .material-icons{   
+      font-size: 5vh;
+    }
+      }
+      }
+    }
+    
+      .contact {
+        visibility: visible;
+        height: 10vh;
+        width: 10vw;
+        margin-top: 1vh;
+        margin-right: 3vw;
+    
+        li{
+          font-size:0.9em;
+        }  
+      }
+      
+      #logo {
+        height: 80px;
+      }
+    
+      .Fvizitka {
+        display: none;
+      } 
+    }
+    
+    .footer {
+      height: 12vh;
+    
+      .copyright {
+        margin-top:2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+       margin-bottom: 2vh;
+       font-size: 0.9em;
+      }
+      .social-networks {
+        margin-left: 70vw;
+        font-size: 0.9em;
+       margin-bottom: 2vh;
+        
+      }
+    
+      a {
+        margin-left: 1vw;
+        font-size: 1.2em;
+      }
+    }
+
+    // index.html
+
+    .greeting {
+        font-size:4em;
+      }
+
+    // about.html
+
+    .about-title {
+        font-size:4em;
+      }
+    
+    .table {
+      width: 90vw;
+      margin-left: 5vw;
+      font-size: 1em;
+    }
+    
+    .about-subtitle {
+      font-size: 3em;
+      width: 80vw;
+      margin-left: -20vw;
+    }
+    
+    .about-subtitle__h3 {
+      font-size: 2em;
+      width: 90vw;
+      margin-left: -25vw;
+    }
+    
+    .location {
+      margin-bottom: 10vh;
+    }
+
+    // operations.html
+
+    .operations-title {
+        font-size: 4em;
+        margin-bottom:10vh;
+      }
+      
+      .operations-subtitle {
+        font-size: 3em;
+      }
+      
+      .operations-subtitle__h3 {
+        font-size: 2em;
+      }
+      
+      .operations-paragraph {
+        margin-bottom: 5vh;
+      }
+
+      // membership.html
+
+      .services-title {
+        font-size: 4em;
+        margin-bottom:10vh;
+      }
+      
+      .services-paragraph {
+        margin-bottom: 5vh;
+      }
+
+    // youth.html
+
+    .youth-title {
+        font-size: 4em;
+        margin-bottom:10vh;
+      }
+      
+      .youth-paragraph {
+        margin-bottom: 5vh;
+      }
+      
+      .youth-img {
+        width: 60vw;
+        margin-bottom:5vh;
+      }
+
+    // services.html
+
+    .services-title {
+        font-size: 4em;
+        margin-bottom:10vh;
+      }
+      
+      .services-paragraph {
+        margin-bottom: 5vh;
+      }
+
+    // help_us.html
+
+    .help_us-title {
+        font-size: 4em;
+        margin-bottom:10vh;
+      }
+    
+      .help_us-paragraph {
+        margin-bottom: -5vh;
+      }
+    
+      .help_us-ol {
+        margin-bottom: 20vh;
+        
+        li {
+          width: 70vw;
+    
+          .help_us-ul {
+            
+            li {
+              width: 30vw;
+            }
+    
+            .img-qrcode {
+              width: 30vw;
+              margin-left: 35vw;
+            }
+          }
+        }
+      }
+
+    }
+
+//     @forward './start';
+//     @forward './layout';
+//     @forward './index-page';
+//     @forward './about-page';
+//     @forward './operations-page';
+//     @forward './membership-page';
+//     @forward './youth-page';
+//     @forward './services-page';
+//     @forward './help_us-page';
+//     @forward './end';

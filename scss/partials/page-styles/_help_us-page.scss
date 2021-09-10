@@ -1,0 +1,32 @@
+
+
+.help_us-title {
+    line-height: 1.5em;
+    position: relative;
+    margin: 15vh 0;
+    text-align: center;
+    font-size: 5em;
+  }
+  
+  .help_us-paragraph {
+    margin-bottom: 10vh;
+    text-align: left;
+  }
+  
+  .help_us-ol {
+    text-align: left;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 55vw;
+    margin-bottom: 10vh;
+  
+    li {
+      margin: 2vh 0;
+    }
+  
+    .img-qrcode {
+      position: absolute;
+      margin-left: 48vw;
+      margin-top: -5vh;
+    }
+  }

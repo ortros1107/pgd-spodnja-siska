@@ -1,0 +1,19 @@
+.swiper-container {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+  
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .swiper-button-next, .swiper-button-prev {
+      color: #fff;
+      font-weight:700;
+    }
+  }

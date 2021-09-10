@@ -1,0 +1,29 @@
+.membership-title {
+    margin-top: 100px;
+  }
+
+  .membership-paragraph {
+    margin-bottom: 5vh;
+  }
+
+  .join-form {
+    width: 80vw;
+    height: 600px;
+    margin-left: 10vw;
+
+    .join-form__label {
+
+      .join-form__input {
+        display: block;
+      }
+
+      .label-name__input {
+        margin-left: -1vw;
+      }
+    }
+
+    .join-form__button {
+      width: 30vw;
+    }
+    margin-bottom: 10vh;
+  }

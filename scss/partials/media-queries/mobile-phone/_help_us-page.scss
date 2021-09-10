@@ -1,0 +1,32 @@
+.help_us-title {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 7vh;
+  }
+
+  .help_us-paragraph { 
+    text-align: center;
+  }
+
+  .help_us-ol {
+    
+    li {
+      width: 70vw;
+      font-size: 1.5em;
+      text-align: center;
+     
+      .help_us-ul {
+        li {
+          font-size: 1em;
+        }
+      }
+    }
+    .img-qrcode {
+      position: relative;
+      height: 40vh;
+      width: 70vw;
+      margin-left:0vw;
+      margin-top: 0vh;
+    }
+  }

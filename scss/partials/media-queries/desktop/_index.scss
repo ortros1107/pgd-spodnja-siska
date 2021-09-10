@@ -1,0 +1,62 @@
+@media (min-width: 1281px) and (max-width: 1920px) {
+
+    .contact {
+        height:10vh;
+        margin-right: 1vw;
+        
+        li {
+          font-size:0.8em;
+          img{
+            height:3vh;
+          }
+        }
+      }
+    
+      .logo {
+        height: 6vh;
+      }
+
+      // index.html
+
+      // about.html
+
+      .table {
+        height:70vh;
+        width:90vw;
+        margin-left: 5vw;
+        font-size: 1.5em;
+      }
+    
+      .about-subtitle__h3 {
+        width: 80vw;
+        margin-left: -20vw;
+      }
+
+      // operations.html
+
+      // membership.html
+
+      .join-form {
+        width: 50vw;
+        height: 80vh;
+        margin-left:25vw;
+      }
+
+      // youth.html
+
+      // services.html
+
+      // help_us.html
+
+    }
+
+    // @forward './start';
+    // @forward './layout';
+    // @forward './index-page';
+    // @forward './about-page';
+    // @forward './operations-page';
+    // @forward './membership-page';
+    // @forward './youth-page';
+    // @forward './services-page';
+    // @forward './help_us-page';
+    // @forward './end';

@@ -1,0 +1,254 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    li {
+        font-size: 1.5em;
+      }
+    
+      .main-header_nav {
+    
+        height: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        .navbar-links {
+    
+          display: none;
+          
+    
+          ul {
+            z-index: 100;
+            width: 100vw;
+            height: 300vh;
+            flex-direction: column;
+            overflow-y: scroll;
+            background-color: maroon;
+            
+          }
+        }
+    
+        .navbar-links.active {
+          display: inline;
+        }
+        .main-header_nav__link  {
+          
+          .material-icons {
+            display: inline-block;
+            padding-right: 5vw;
+          }
+          font-size: 1em;
+        }
+    
+        #hamburger-menu {
+          display: inherit;
+        }
+    
+        .contact {
+    
+          visibility: hidden;
+        }
+    
+        #logo {
+          height: 10vh;
+        }
+      }
+    
+      .Fvizitka {
+        display: block;
+        padding-bottom: 5vh;
+      }
+    
+      .footer {
+        height: 20vh;
+    
+        .copyright {
+         margin-bottom: 2vh;
+         font-size: 3vh;
+        }
+        .social-networks {
+          margin-left: 20vw;
+          font-size: 3vh;
+        }
+    
+        a {
+          margin-left: 3vw;
+          font-size: 3vh;
+        }
+      }
+
+      // index.html
+
+      .greeting-animation {
+        display: none;
+      }
+    
+      .greeting {
+        font-size:3em;
+      }
+
+      // about.html
+
+      .table {
+        margin-left: 0;
+        width: 100vw;
+      }
+      
+        .about-title {
+          line-height: 1.5;
+          text-align: center;
+          margin-left: -10vw;
+          font-size:3em;
+          width: 60vw;
+        }
+      
+        .about-subtitle {
+         margin-left: -12vw;
+         text-align: center;
+          font-size: 2.5em;
+          width: 60vw;
+        }
+      
+        .about-subtitle__h3 {
+          font-size: 2em;
+          width: 80vw;
+          margin-left: -20vw;
+        }
+
+      // operations.html
+
+      .operations-title {
+        line-height: 1.5;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 2vh;
+      }
+    
+      .operations-subtitle {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 5vh;
+      }
+    
+      .operations-subtitle__h3 {
+        font-size: 2em;
+        margin-bottom: 4vh;
+      }
+    
+      .swiper-container {
+        height:30vh;
+        width: 60vw;
+      }
+
+      // membership.html
+
+      .membership-title {
+        line-height: 1.5;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 7vh;
+      }
+    
+      .join-form {
+        border-radius:5px;
+        width: 90vw;
+        margin-left:5vw;
+        height: 110vh;
+    
+        .join-form__label {
+          margin-left: 0vw;
+        }
+        .join-form__input {
+          width: 80vw;
+      }
+    
+        .label-name {
+        margin-left: -10vw;
+          .join-form__input {
+            display: block;
+        }
+      }
+    
+      .join-form__button {
+        height: 10vh;
+        width: 50vw;
+        font-size:0.8em;
+      }
+    }
+
+      // youth.html
+
+      .youth-title {
+        line-height: 1.5;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 7vh;
+      }
+    
+      .youth-img {
+        width: 80vw;
+        height: 40vh;
+      }
+
+      // services.html
+
+      .services-title {
+        line-height: 1.5;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 7vh;
+      }
+    
+      .services-paragraph__ul {
+        width: 80vw;
+        margin-left:10vw;
+        text-align: center;
+      }
+
+      // help_us.html
+
+      .help_us-title {
+        line-height: 1.5;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 7vh;
+      }
+    
+      .help_us-paragraph { 
+        text-align: center;
+      }
+    
+      .help_us-ol {
+        
+        li {
+          width: 70vw;
+          font-size: 1.5em;
+          text-align: center;
+         
+          .help_us-ul {
+            li {
+              font-size: 1em;
+            }
+          }
+        }
+        .img-qrcode {
+          position: relative;
+          height: 40vh;
+          width: 70vw;
+          margin-left:0vw;
+          margin-top: 0vh;
+        }
+    }
+
+    }
+
+
+    // @forward './start';
+    // @forward './layout';
+    // @forward './index-page';
+    // @forward './about-page';
+    // @forward './operations-page';
+    // @forward './membership-page';
+    // @forward './youth-page';
+    // @forward './services-page';
+    // @forward './help_us-page';
+    // @forward './end';

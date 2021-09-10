@@ -1,0 +1,75 @@
+li {
+    font-size: 1em;
+  }
+
+ .section p {
+    font-size:1em;
+  }
+
+  .main-header_nav {
+    height:10vh;
+  
+.navbar-links{
+  width:77vw;
+  margin-top: 3vh;
+
+  li {
+    height: 10vh;
+    width: 10vw;
+  margin-top:-1vh;
+  margin-left: 1vw;
+  
+  a,.active {
+    font-size: 0.8em;
+    width: 12vw;
+
+  .material-icons{   
+  font-size: 5vh;
+}
+  }
+  }
+}
+
+  .contact {
+    visibility: visible;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 1vh;
+    margin-right: 3vw;
+
+    li{
+      font-size:0.9em;
+    }  
+  }
+  
+  #logo {
+    height: 80px;
+  }
+
+  .Fvizitka {
+    display: none;
+  } 
+}
+
+.footer {
+  height: 12vh;
+
+  .copyright {
+    margin-top:2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+   margin-bottom: 2vh;
+   font-size: 0.9em;
+  }
+  .social-networks {
+    margin-left: 70vw;
+    font-size: 0.9em;
+   margin-bottom: 2vh;
+    
+  }
+
+  a {
+    margin-left: 1vw;
+    font-size: 1.2em;
+  }
+}

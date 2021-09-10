@@ -1,0 +1,74 @@
+li {
+    font-size: 1.5em;
+  }
+
+  .main-header_nav {
+
+    height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .navbar-links {
+
+      display: none;
+      
+
+      ul {
+        z-index: 100;
+        width: 100vw;
+        height: 300vh;
+        flex-direction: column;
+        overflow-y: scroll;
+        background-color: maroon;
+        
+      }
+    }
+
+    .navbar-links.active {
+      display: inline;
+    }
+    .main-header_nav__link  {
+      
+      .material-icons {
+        display: inline-block;
+        padding-right: 5vw;
+      }
+      font-size: 1em;
+    }
+
+    #hamburger-menu {
+      display: inherit;
+    }
+
+    .contact {
+
+      visibility: hidden;
+    }
+
+    #logo {
+      height: 10vh;
+    }
+  }
+
+  .Fvizitka {
+    display: block;
+    padding-bottom: 5vh;
+  }
+
+  .footer {
+    height: 20vh;
+
+    .copyright {
+     margin-bottom: 2vh;
+     font-size: 3vh;
+    }
+    .social-networks {
+      margin-left: 20vw;
+      font-size: 3vh;
+    }
+
+    a {
+      margin-left: 3vw;
+      font-size: 3vh;
+    }
+  }

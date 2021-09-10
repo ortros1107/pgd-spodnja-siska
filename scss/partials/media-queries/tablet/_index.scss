@@ -1,0 +1,241 @@
+
+@media (min-width: 481px) and (max-width: 800px) {
+
+  .contact {
+    visibility: hidden;
+  }
+
+  li {
+    font-size: 1.5em;
+  }
+
+  .main-header_nav {
+
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .navbar-links {
+
+      display: none;
+
+      ul {
+        width: 100vw;
+        flex-direction: column;
+        background-color: maroon;
+      }
+    }
+
+     .active {
+      display: inherit;
+      
+    }
+    .main-header_nav__link  {
+      
+      .material-icons {
+        display: inline-block;
+        padding-right: 5vw;
+        font-size: 1.5em;
+      }
+      font-size: 1.5em;
+    }
+
+    #hamburger-menu {
+      display: inherit;
+      margin-top: 15px;
+      margin-left: 5vw;
+      
+      .fa-bars {
+        font-size: 3em;
+      }
+    }
+
+    #logo {
+      height: 70px;
+    }
+  }
+
+  .Fvizitka {
+    display: block;
+    padding-bottom: 5vh;
+  }
+
+  .footer {
+    height: 20vh;
+
+    .copyright {
+      margin-top:2vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+     margin-bottom: 2vh;
+     font-size: 1.2em;
+    }
+    .social-networks {
+      margin-left: 40vw;
+      font-size: 1.2em;
+    }
+
+    a {
+      margin-left: 2vw;
+      font-size: 1.5em;
+    }
+  }
+
+    // index.html
+
+    .greeting-animation {
+        display: none;
+      }
+
+    // about.html
+
+    .about-title {
+        width: 80vw;
+        margin-left:-20vw;
+      }
+    
+    .table {
+      width: 95vw;
+      height: 60vh;
+      margin-left: 2.5vw;
+      font-size:1.5em;
+    }
+    
+    .about-subtitle {
+      width: 80vw;
+      margin-left:-20vw;
+    }
+    
+    .about-subtitle__h3 {
+      width: 80vw;
+      margin-left: -20vw;
+    }
+    
+    .location {
+      height: 50vh;
+    }
+
+    // operations.html
+
+    .operations-title {
+        margin-bottom: 10vh;
+        margin-top: 100px;
+      }
+      
+      .swiper-container {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+      
+        .swiper-button-prev{
+          margin-left: 10vw;
+        }
+      
+        .swiper-button-next{
+          margin-right: 10vw;
+        }
+      }
+
+    // membership.html
+
+    .membership-title {
+        margin-top: 100px;
+      }
+    
+      .membership-paragraph {
+        margin-bottom: 5vh;
+      }
+    
+      .join-form {
+        width: 80vw;
+        height: 600px;
+        margin-left: 10vw;
+    
+        .join-form__label {
+    
+          .join-form__input {
+            display: block;
+          }
+    
+          .label-name__input {
+            margin-left: -1vw;
+          }
+        }
+    
+        .join-form__button {
+          width: 30vw;
+        }
+        margin-bottom: 10vh;
+      }
+
+    // youth.html
+
+    .youth-title {
+        margin-bottom: 10vh;
+        margin-top: 100px;
+      }
+    
+      .youth-img {
+        width:70vw;
+        height:40vh;
+      }
+
+    // services.html
+
+    .services-title {
+        margin-bottom: 10vh;
+        margin-top: 100px;
+      }
+    
+      .services-paragraph__ul {
+        width: 70vw;
+        margin-left: 15vw;
+        text-align: left;
+      }
+
+    // help_us.html
+
+    .help_us-title {
+        margin-bottom: 10vh;
+        margin-top: 100px;
+      }
+    
+      .help_us-paragraph { 
+        text-align: center;
+      }
+    
+      .help_us-ol {
+        
+        li {
+          width: 70vw;
+          font-size: 1.5em;
+          text-align: left;
+         
+          .help_us-ul {
+            li {
+              font-size: 1em;
+            }
+          }
+        }
+    
+        .img-qrcode {
+          position: relative;
+          height: 40vh;
+          width: 70vw;
+          margin-left:0vw;
+          margin-top: 0vh;
+        }
+      }
+
+    }
+
+// @forward './start';
+// @forward './layout';
+// @forward './index-page';
+// @forward './about-page';
+// @forward './operations-page';
+// @forward './membership-page';
+// @forward './youth-page';
+// @forward './services-page';
+// @forward './help_us-page';
+// @forward './end';

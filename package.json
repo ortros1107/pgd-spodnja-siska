@@ -14,5 +14,8 @@
     "slovenia"
   ],
   "author": "Valentin Budkovič",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^6.3.1"
+  }
 }

@@ -1,0 +1,26 @@
+.membership-title {
+    font-size: 4em;
+    margin-bottom:10vh;
+  }
+  
+  .join-form{
+    width: 70vw;
+    margin-left: 15vw;
+    height: 80vh;
+    font-size: 1em;
+  
+    .label-name{
+      margin-left: -8vw;
+      
+  
+      .label-name__input{
+        margin-left: 7vw;
+      } 
+    }
+  
+    .join-form__button {
+      width: 30vw;
+      height: 10vh;
+      font-size: 1em;
+    }
+  }
